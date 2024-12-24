@@ -1,0 +1,19 @@
+.panel {
+    background-color: rgba(0, 0, 0, 0.68);
+}
+
+.mail-wait {
+    background-image: url("project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png?fileID=2800000&guid=71ebafeef3c03457483266a33ab2b270&type=3#9-Sliced");
+    -unity-slice-scale: 1px;
+    -unity-background-image-tint-color: rgb(195, 188, 172);
+    -unity-slice-left: 75;
+    -unity-slice-top: 75;
+    -unity-slice-right: 75;
+    -unity-slice-bottom: 75;
+    padding-left: 32px;
+    padding-top: 32px;
+    padding-right: 32px;
+    padding-bottom: 32px;
+    translate: 32px 0;
+    rotate: 4deg;
+}

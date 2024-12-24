@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/PlayerHudStyle.uss?fileID=7433441132597879392&amp;guid=bde159ff0c27f00a087fd634b024940a&amp;type=3#PlayerHudStyle" />
+    <ui:VisualElement style="flex-grow: 1; justify-content: center;">
+        <ui:VisualElement name="MailBox" class="mail-wait" style="flex-grow: 1; width: 35%; height: 50%; position: absolute; top: auto; left: auto; align-self: center; bottom: auto; align-items: auto; align-content: auto; justify-content: flex-start; right: auto;">
+            <ui:Label text="Label" name="MailTitle" style="align-self: center; font-size: 32px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Onest-Bold.ttf?fileID=12800000&amp;guid=4b970d288de4df2128524e0e68449eb7&amp;type=3#Onest-Bold&quot;);" />
+            <ui:Label text="Label" name="MailContent" style="align-self: center; align-content: flex-start; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Onest-Regular.ttf?fileID=12800000&amp;guid=d116c24a37aa0321ca4c4ca27447496c&amp;type=3#Onest-Regular&quot;); font-size: 24px;" />
+        </ui:VisualElement>
+        <ui:VisualElement name="MailBox" style="flex-grow: 1; background-color: rgba(252, 245, 229, 0); width: 35%; height: 50%; position: absolute; top: auto; left: auto; align-self: center; bottom: auto; align-items: auto; align-content: auto; justify-content: flex-start; right: auto; padding-left: 32px; padding-right: 32px; padding-top: 32px; padding-bottom: 32px; -unity-slice-left: 75; -unity-slice-top: 75; -unity-slice-right: 75; -unity-slice-bottom: 75; -unity-background-scale-mode: stretch-to-fill; background-image: url(&quot;project://database/Packages/com.unity.2d.sprite/Editor/ObjectMenuCreation/DefaultAssets/Textures/9-Sliced.png?fileID=2800000&amp;guid=71ebafeef3c03457483266a33ab2b270&amp;type=3#9-Sliced&quot;); -unity-background-image-tint-color: rgb(252, 245, 229);">
+            <ui:Label text="Label" name="MailTitle" style="align-self: center; font-size: 32px; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Onest-Bold.ttf?fileID=12800000&amp;guid=4b970d288de4df2128524e0e68449eb7&amp;type=3#Onest-Bold&quot;);" />
+            <ui:Label text="Label" name="MailContent" style="align-self: center; align-content: flex-start; -unity-font-definition: url(&quot;project://database/Assets/TextMesh%20Pro/Fonts/Onest-Regular.ttf?fileID=12800000&amp;guid=d116c24a37aa0321ca4c4ca27447496c&amp;type=3#Onest-Regular&quot;); font-size: 24px;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
